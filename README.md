@@ -75,6 +75,6 @@ New OpenAI-compatible models can be configured in `config/model_suite.example.js
 
 Project code and documentation are licensed under [MIT](LICENSE); authorized project data and derived tabular results are licensed under [CC BY 4.0](data/LICENSE.md). The manuscript, model-return text, route geometry, and third-party assets are handled separately in [LICENSE_NOTICE.md](LICENSE_NOTICE.md).
 
-The materials are staged for a **private repository**, pending final public-release review. Pseudonymization retains detailed geography and time, so it does not guarantee that trajectories are unidentifiable. API credentials, old notebooks, private identifier crosswalks, map-tile caches, and historical development outputs are excluded.
+The materials are maintained in the **private repository** [Nicholas0027/LLM-DR](https://github.com/Nicholas0027/LLM-DR), pending final public-release review. Pseudonymization retains detailed geography and time, so it does not guarantee that trajectories are unidentifiable. API credentials, old notebooks, private identifier crosswalks, map-tile caches, and historical development outputs are excluded.
 
 The current manuscript remains anonymous. GitHub account identity, citation metadata, and any public paper release should be coordinated before making the repository public.
