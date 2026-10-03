@@ -1,0 +1,50 @@
+{
+  "release": "2026-10-02",
+  "manuscript_version": "1002version",
+  "empirical_orders_rows": 9199,
+  "persona_order_rows": 9025,
+  "empirical_wave_rows": 2508,
+  "source_order_ids_replaced": 9199,
+  "source_courier_ids_replaced": 711,
+  "privacy_transform": "Consistent identifier replacement and column allowlisting; source coordinate and time resolution retained.",
+  "filtered_order_id_repair": {
+    "reason": "Legacy filtered export lost tracking-ID precision.",
+    "original_distinct_tracking_ids": 1,
+    "matched_records": 9025,
+    "unmatched_records": 0,
+    "method": "Exact one-to-one join against original orders before pseudonymization.",
+    "join_columns": [
+      "courier_id",
+      "create_time",
+      "pick_lng",
+      "pick_lat",
+      "deliver_lng",
+      "deliver_lat"
+    ],
+    "experimental_effect": "None: persona features do not use tracking_id; evaluation uses original orders."
+  },
+  "removed_fields": [
+    "shop_id",
+    "aoi_id",
+    "weather_grade",
+    "original_gdf_index",
+    "routed_segments_details",
+    "wave_routed_polyline_coords"
+  ],
+  "model_output_transform": "Only source order identifiers are replaced; original rationale text and recorded diagnostics are retained.",
+  "routing_cache": "Not distributed; use Amap credentials for fresh road-network runs.",
+  "licenses": {
+    "project_code": "MIT",
+    "project_data": "CC-BY-4.0"
+  },
+  "release_status": "Stage privately pending public-release review and attribution finalization.",
+  "scripts_sha256": {
+    "run_simulation_experiment.py": "ed0546c7f4dd2f877cc8942ce3907381f446f13e78238b6df4e5061c7fee8783",
+    "run_scaled_simulation_experiment.py": "fee15392de843c503f274e930d2833a6de5daeaff33e405afc0145308edeae4e",
+    "compare_simulation_to_empirical.py": "6eeda5c2dc050bf1d885c3e55fc0e0836be3c04e87bba631c58fa78311fc265b",
+    "persona_clustering_experiment.py": "d2db05eff7ce88be1cb1f4287b2f0e5dd3d1b79ba4d2a4311350a67f6836efe5",
+    "plot_persona_delivery_patterns.py": "c31c35db6029ade15c4803f35629ab3e74b521408a0ef51df221b18deda0832b",
+    "plot_scaled_simulation_figures.py": "8c2cb59ed2c1dc7dda945e49dd04ff50afa8a51ba3813999b9a6359c8afbf339",
+    "probe_model_endpoints.py": "c03527b3e9319e3994c448c8e575b080bc21729630b58d70a2c9d5151ac9cde0"
+  }
+}

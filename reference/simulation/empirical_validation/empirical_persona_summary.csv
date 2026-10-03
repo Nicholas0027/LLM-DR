@@ -1,0 +1,5 @@
+source,persona,order_count,wave_count,active_riders,orders_per_active_rider,avg_bundle_size,stacked_wave_ratio,mean_od_distance_km,mean_wave_distance_km,mean_wave_duration_min,pickup_radius_gyration_km,pickup_activity_area_km2
+empirical,Full-time Workhorse,4212,1299,281,14.9893,3.3172,1.0,1.3405,6.9553,43.0273,17.9812,6223.0982
+empirical,Lunch-Peak Specialist,547,196,111,4.9279,2.8673,1.0,1.1311,4.7341,29.8229,15.9048,3645.0407
+empirical,Super Stacker,3472,766,219,15.8539,4.6919,1.0,1.455,12.7284,74.782,17.6214,3988.2048
+empirical,Dinner-Peak Core,425,150,94,4.5213,2.9667,1.0,1.5,8.431,50.7318,14.3058,2619.4378

@@ -1,0 +1,21 @@
+source,persona,order_count,wave_count,active_riders,orders_per_active_rider,avg_bundle_size,stacked_wave_ratio,mean_od_distance_km,mean_wave_distance_km,mean_wave_duration_min,pickup_radius_gyration_km,pickup_activity_area_km2
+deepseek_v4,Full-time Workhorse,394,259,15,26.2667,1.5212,0.5212,1.332,5.7059,25.8665,14.7603,1394.1068
+deepseek_v4,Lunch-Peak Specialist,240,182,15,16.0,1.3187,0.3132,1.2102,4.0436,18.812,9.6518,603.2862
+deepseek_v4,Super Stacker,456,204,15,30.4,2.2353,0.8284,1.3008,8.6698,39.1491,11.1733,845.4867
+deepseek_v4,Dinner-Peak Core,338,301,15,22.5333,1.1229,0.1229,1.2423,3.907,17.8745,13.0156,2283.6851
+highest_fee_baseline,Full-time Workhorse,309,309,15,20.6,1.0,0.0,1.5963,4.4909,19.9638,14.718,1477.7258
+highest_fee_baseline,Lunch-Peak Specialist,321,321,15,21.4,1.0,0.0,1.6021,4.6071,20.428,10.8674,713.6654
+highest_fee_baseline,Super Stacker,310,310,15,20.6667,1.0,0.0,1.6981,4.7459,20.9831,12.4397,877.7612
+highest_fee_baseline,Dinner-Peak Core,281,281,15,18.7333,1.0,0.0,1.5996,4.5892,20.3566,14.4725,2239.8614
+nearest_baseline,Full-time Workhorse,369,369,15,24.6,1.0,0.0,1.185,3.678,16.7117,14.1191,1460.3018
+nearest_baseline,Lunch-Peak Specialist,394,394,15,26.2667,1.0,0.0,1.2061,3.693,16.7721,11.3111,687.5864
+nearest_baseline,Super Stacker,350,350,15,23.3333,1.0,0.0,1.3352,3.9332,17.7329,11.1736,809.4212
+nearest_baseline,Dinner-Peak Core,348,348,15,23.2,1.0,0.0,1.1391,3.5,15.9993,12.9742,2215.3331
+persona_heuristic,Full-time Workhorse,341,193,15,22.7333,1.7668,0.7668,1.5192,8.0786,35.8473,13.8147,1460.4146
+persona_heuristic,Lunch-Peak Specialist,110,110,15,7.3333,1.0,0.0,1.5444,4.6843,20.7365,11.1848,523.27
+persona_heuristic,Super Stacker,393,223,15,26.2,1.7623,0.7623,1.5303,8.415,37.1844,11.8465,905.1116
+persona_heuristic,Dinner-Peak Core,203,203,15,13.5333,1.0,0.0,1.7425,4.5402,20.4878,12.3168,2103.8967
+profit_baseline,Full-time Workhorse,343,201,15,22.8667,1.7065,0.7065,1.2283,7.4207,33.0966,14.0388,1414.8464
+profit_baseline,Lunch-Peak Specialist,395,232,15,26.3333,1.7026,0.7026,1.2632,7.3611,32.8489,10.7799,598.1659
+profit_baseline,Super Stacker,405,236,15,27.0,1.7161,0.7161,1.3224,7.4478,33.223,12.3612,940.4825
+profit_baseline,Dinner-Peak Core,365,212,15,24.3333,1.7217,0.7217,1.1802,7.0048,31.4613,13.9696,2310.0962

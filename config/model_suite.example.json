@@ -1,0 +1,23 @@
+{
+  "models": {
+    "deepseek_v4": {
+      "provider": "deepseek",
+      "base_url": "https://api.deepseek.com/v1",
+      "model": "deepseek-v4-pro",
+      "api_key_env": "DEEPSEEK_API_KEY",
+      "temperature": 0.2,
+      "max_tokens": 1024,
+      "thinking_type": "disabled",
+      "response_format_json": true
+    },
+    "custom_model": {
+      "provider": "openai-compatible",
+      "base_url": "https://example.invalid/v1",
+      "model": "replace-with-your-model",
+      "api_key_env": "CUSTOM_API_KEY",
+      "temperature": 0.2,
+      "max_tokens": 1024,
+      "response_format_json": true
+    }
+  }
+}

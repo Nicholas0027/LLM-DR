@@ -1,0 +1,6 @@
+model,hourly_jsd_rank,pickup_grid_jsd_rank,od_distance_wasserstein_km_rank,od_distance_ks_rank,wave_distance_wasserstein_km_rank,wave_distance_ks_rank,bundle_size_wasserstein_rank,stacked_wave_ratio_abs_diff_rank,pickup_radius_gyration_abs_diff_km_rank,pickup_activity_area_log_ratio_abs_rank,mean_rank
+profit_baseline,5.0,4.0,3.0,3.0,1.0,1.0,1.0,1.0,2.0,2.0,2.3
+deepseek_v4,2.0,1.0,1.0,2.0,3.0,2.0,2.0,2.0,5.0,4.0,2.4
+persona_heuristic,1.0,3.0,4.0,5.0,2.0,3.0,3.0,3.0,4.0,5.0,3.3
+highest_fee_baseline,4.0,2.0,5.0,4.0,4.0,4.0,4.5,4.5,1.0,1.0,3.4
+nearest_baseline,3.0,5.0,2.0,1.0,5.0,5.0,4.5,4.5,3.0,3.0,3.6

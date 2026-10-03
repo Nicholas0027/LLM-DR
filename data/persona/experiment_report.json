@@ -1,0 +1,15 @@
+{
+  "wave_rows": 2508,
+  "order_rows": 9025,
+  "couriers_in_wave": 711,
+  "couriers_in_orders": 710,
+  "couriers_clustered": 710,
+  "feature_count": 15,
+  "k": 4,
+  "final_inertia": 7415.574402666741,
+  "final_silhouette": 0.10767644584837957,
+  "final_calinski_harabasz": 102.64453107845122,
+  "final_davies_bouldin": 2.1745226414145016,
+  "stability_mean_ari": 0.9269536826711176,
+  "stability_median_ari": 0.9191902340912821
+}

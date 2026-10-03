@@ -1,0 +1,19 @@
+\ProvidesFile{TUptm.fd}[2026/08/28 IEEEtran ptm mapping for XeTeX]
+\DeclareFontFamily{TU}{ptm}{}
+\DeclareFontShape{TU}{ptm}{m}{n}
+  {<-> \UnicodeFontFile{fonts/texgyretermes-regular.otf}{\UnicodeFontTeXLigatures}}{}
+\DeclareFontShape{TU}{ptm}{m}{it}
+  {<-> \UnicodeFontFile{fonts/texgyretermes-italic.otf}{\UnicodeFontTeXLigatures}}{}
+\DeclareFontShape{TU}{ptm}{m}{sl}
+  {<-> \UnicodeFontFile{fonts/texgyretermes-italic.otf}{\UnicodeFontTeXLigatures}}{}
+\DeclareFontShape{TU}{ptm}{m}{sc}
+  {<-> \UnicodeFontFile{fonts/texgyretermes-regular.otf}{\UnicodeFontTeXLigatures+smcp;}}{}
+\DeclareFontShape{TU}{ptm}{b}{n}
+  {<-> \UnicodeFontFile{fonts/texgyretermes-bold.otf}{\UnicodeFontTeXLigatures}}{}
+\DeclareFontShape{TU}{ptm}{b}{it}
+  {<-> \UnicodeFontFile{fonts/texgyretermes-bolditalic.otf}{\UnicodeFontTeXLigatures}}{}
+\DeclareFontShape{TU}{ptm}{bx}{n}
+  {<-> \UnicodeFontFile{fonts/texgyretermes-bold.otf}{\UnicodeFontTeXLigatures}}{}
+\DeclareFontShape{TU}{ptm}{bx}{it}
+  {<-> \UnicodeFontFile{fonts/texgyretermes-bolditalic.otf}{\UnicodeFontTeXLigatures}}{}
+\endinput

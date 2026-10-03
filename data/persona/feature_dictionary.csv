@@ -1,0 +1,16 @@
+feature,definition
+avg_daily_work_duration_hr,Elapsed hours between a rider's first and last routed wave event.
+lunch_ratio,Share of the rider's orders created during 11:00-14:00.
+dinner_ratio,Share of the rider's orders created during 17:00-21:00.
+late_night_ratio,Share of the rider's orders created after 21:00 or before 07:00.
+time_fragmentation,Number of 10-minute bins covered by routed wave activity.
+avg_wave_distance_m,Mean routed distance per delivery wave from Amap routing.
+avg_wave_duration_s,Mean routed duration per delivery wave from Amap routing.
+avg_dist_per_action_m,Total routed distance divided by total original wave segments.
+avg_dur_per_action_s,Total routed duration divided by total original wave segments.
+stacked_order_ratio,Mean share of pickup/drop-off states where the rider carries more than one active order.
+activity_area_km2,"Convex-hull area of corrected pickup, drop-off, and wave-start points."
+area_aspect_ratio,Bounding-box elongation ratio of the rider's activity points.
+rider_level,Mean platform rider level recorded in the wave data.
+rider_speed,Mean rider speed recorded in the wave data.
+rider_max_load,Mean rider maximum load recorded in the wave data.

@@ -1,0 +1,6 @@
+model,model_id,backend,orders_in_window,rider_count,completed_order_count,unassigned_order_count,total_earnings,total_mileage_km,mean_on_time_rate,platform_on_time_rate,decision_count,api_error_count,api_error_rate,route_provider,amap_mode,route_request_count,route_cache_hit_count,route_api_error_count,elapsed_s
+nearest_baseline,nearest_baseline,heuristic,8656,60,1461,7195,6876.0,5406.793,0.8771,0.8631,1614,0,0.0,amap,bicycling,1808,1117,0,1139.388
+highest_fee_baseline,highest_fee_baseline,heuristic,8656,60,1221,7435,7047.0,5627.373,0.8599,0.8395,1373,0,0.0,amap,bicycling,1480,962,0,1039.765
+profit_baseline,profit_baseline,heuristic,8656,60,1508,7148,7737.0,6442.019,0.5679,0.5212,962,0,0.0,amap,bicycling,2398,532,0,1341.558
+persona_heuristic,persona_heuristic,heuristic,8656,60,1047,7609,6038.0,4872.656,0.6587,0.5922,1639,0,0.0,amap,bicycling,39,2016,0,33.49
+deepseek_v4,deepseek-v4-pro,llm,8656,60,1428,7228,7204.0,5158.436,0.6905,0.6183,1587,5,0.0032,amap,bicycling,5002,10253,0,11464.677

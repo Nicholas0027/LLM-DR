@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript associated with this research software. Author metadata will be finalized for the public release."
+title: "LLM-DR: Research Software and Reference Results for Persona-Grounded Delivery Simulation"
+type: software
+version: 0.1.0-dev
+license: MIT
+authors:
+  - name: "LLM-DR authors (anonymous submission)"
